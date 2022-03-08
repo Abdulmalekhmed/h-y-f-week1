@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: solid 18px crimson;
+    border-top: solid 18px crimson;
+}
+.container{
+    width: 90%;
+   padding: 10px 0;
+    margin: auto;
+   box-shadow: 3px 1px 3px black;
+   display: grid;
+   grid-template-columns: 40% auto;
+
+}
+.content{
+    width: 80%;
+    margin: auto;
+    background:white;
+}
+aside{
+    color: greenyellow;
+    
+}
+aside img{
+    width: 180px;
+    height: 180px;
+    margin:0 20px;
+}
+.line{
+    background: rgb(43, 40, 40);
+    width: 80%;
+    height: 1px;
+    margin-bottom: 10px;
+}
+aside .small-container{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(70, 70, 131);
+    border-radius: 4px;
+}
+aside .small-container h1{
+  font-weight: 600;
+  padding: 4px;
+  
+}
+aside .small-container ul{
+  margin-left: 40px;
+  padding: 10px;
+}
+aside .small-container ul li{
+    padding: 8px;
+}
+main{
+    margin-top: 50px;
+    color: rgb(15, 17, 153);
+
+}
+main h1{
+    text-align: center;
+    padding: 5px;
+}
+
+main .left{
+    font-size: 25px;
+    width: 50%;
+}
+main .right{
+    margin-bottom: 20px;
+}
+main .right b{
+    color: rgb(13, 150, 150);
+}
+main .right h2{
+    font-size: 18px;
+    line-height: 25px;
+}
+@media (max-width:750px){
+    .container{
+        display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+}
