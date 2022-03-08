@@ -1,0 +1,14 @@
+1-creat a hidden file or folder
+  by adding dot before the name of that file  " .file-name"
+   -you can display the file by using the command ls -a
+   
+------------- ----------------------- ----------
+ 2- creat multiple nested directories
+  you can usse the -p 
+      - mkdir -p  this/folders/are/just/for/fun
+----------------- ---------------------- -------------
+3- append
+    you can use the following
+     creat a file  echo "the first message" > file name...
+       
+      apand this  echo "the second message" >> file name.....
