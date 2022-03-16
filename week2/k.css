@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 footer h1{
    margin-left: 50%;
     border: 2px solid red;
@@ -14,4 +15,18 @@ footer h1{
 }
 footer{
     color: blueviolet;
+    margin: auto;
+}
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: blue;
+   margin-left: 50%;
+    
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
