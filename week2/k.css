@@ -30,3 +30,16 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+main article{
+    color: black;
+    border: 2px solid red;
+    display: grid;
+    justify-content: center;
+}
+
+.wrap{
+    border: 3px solid #333;
+    width:80%;
+    margin: auto;
+    
+}
